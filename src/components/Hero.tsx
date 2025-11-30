@@ -10,7 +10,7 @@ export function Hero() {
             {/* <span>CVPR 2026</span> */}
           {/* </div> */}
           <h1 className="hero-title text-gray-900 mb-6">
-            HanDyVQA: A Video Benchmark for 
+            HanDyVQA: A Video QA Benchmark for 
             <br />
             Fine-Grained Hand-Object Interaction Dynamics
           </h1>
