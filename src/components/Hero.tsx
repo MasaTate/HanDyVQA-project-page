@@ -28,7 +28,7 @@ export function Hero() {
             </div>
             <div className="flex gap-4">
               <span><sup>3</sup>Waseda University</span>
-              <span><sup>4</sup>Oxford VGG Group</span>
+              <span><sup>4</sup>Oxford VGG</span>
             </div>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
