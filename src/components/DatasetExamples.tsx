@@ -119,7 +119,7 @@ export function DatasetExamples() {
             {/* <h2 className="text-3xl font-bold text-gray-900 mb-4">Dataset Examples</h2> */}
             <h2 className="text-gray-900 mb-4">Dataset Examples</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our dataset covers both the manipulation and effect aspects of HOI dynamics across diverse real-world scenarios.
+              Our dataset covers both the manipulation and effect aspects of HOI dynamics across diverse real-world scenarios. <strong>Click on each card to view the example of each category video.</strong>
             </p>
           </div>
 
