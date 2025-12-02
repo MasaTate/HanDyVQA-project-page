@@ -44,7 +44,7 @@ export function Header() {
               Citation
             </button>
             <div className="flex items-center gap-3 ml-4 border-l border-gray-200 pl-4">
-              <a href="#" target="_blank" rel="noopener noreferrer"  className="text-gray-600 hover:text-gray-900 transition-colors" title="Paper">
+              <a href="https://arxiv.org/abs/2512.00885" target="_blank" rel="noopener noreferrer"  className="text-gray-600 hover:text-gray-900 transition-colors" title="Paper">
                 <FileText size={20} />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer"  className="text-gray-600 hover:text-gray-900 transition-colors" title="Code">

@@ -32,7 +32,7 @@ export function Hero() {
             </div>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="#" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+            <a href="https://arxiv.org/abs/2512.00885" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
               Read Paper
               <ArrowRight size={18} />
             </a>

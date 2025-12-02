@@ -4,12 +4,14 @@ import { useState } from 'react';
 export function Citation() {
   const [copied, setCopied] = useState(false);
 
-  const bibtex = `@inproceedings{,
-  title={},
-  author={},
-  booktitle={arXiv preprint},
-  pages={},
-  year={2025}
+  const bibtex = `@misc{tateno2025handyvqavideoqabenchmark,
+      title={HanDyVQA: A Video QA Benchmark for Fine-Grained Hand-Object Interaction Dynamics}, 
+      author={Masatoshi Tateno and Gido Kato and Hirokatsu Kataoka and Yoichi Sato and Takuma Yagi},
+      year={2025},
+      eprint={2512.00885},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.00885}, 
 }`;
 
   const handleCopy = () => {
@@ -40,7 +42,7 @@ export function Citation() {
         </div>
 
         <div className="mt-12 grid md:grid-cols-3 gap-6">
-          <a href="#" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white p-6 rounded-lg hover:bg-blue-700 transition-colors text-center">
+          <a href="https://arxiv.org/abs/2512.00885" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white p-6 rounded-lg hover:bg-blue-700 transition-colors text-center">
             <div className="mb-2">📄</div>
             <div>ArXiv Paper</div>
           </a>
