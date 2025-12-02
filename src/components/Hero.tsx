@@ -24,7 +24,7 @@ export function Hero() {
           <div className="flex flex-wrap justify-center gap-4 mb-10 text-gray-600">
             <div className="flex gap-4">
               <span><sup>1</sup>The University of Tokyo</span>
-              <span><sup>2</sup>Institute of Advanced Industrial Science and Technology (AIST)</span>
+              <span><sup>2</sup>National Institute of Advanced Industrial Science and Technology (AIST)</span>
             </div>
             <div className="flex gap-4">
               <span><sup>3</sup>Waseda University</span>
