@@ -23,6 +23,18 @@ export function Abstract() {
             Further analysis shows the remaining challenges in spatial relationship, motion, and part-level geometric understanding.
             We also found that integrating explicit HOI-related cues into visual features improves performance, offering insights for developing future models with a deeper understanding of HOI dynamics.
           </p>
+
+          {/* Add youtube video */}
+          <div className="flex justify-center">
+            <div className="w-full max-w-4xl aspect-16-9">
+              <iframe
+                className="w-full h-full rounded-md"
+                src="https://www.youtube.com/embed/WQklN8H14KM"
+                title="HanDyVQA Teaser Video"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
         </div>
         <div className="grid grid-cols-4 gap-6 mt-10 pt-10 border-t border-gray-200">
           <div className="text-center">

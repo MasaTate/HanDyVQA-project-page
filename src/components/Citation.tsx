@@ -4,14 +4,11 @@ import { useState } from 'react';
 export function Citation() {
   const [copied, setCopied] = useState(false);
 
-  const bibtex = `@misc{tateno2025handyvqavideoqabenchmark,
-      title={HanDyVQA: A Video QA Benchmark for Fine-Grained Hand-Object Interaction Dynamics}, 
-      author={Masatoshi Tateno and Gido Kato and Hirokatsu Kataoka and Yoichi Sato and Takuma Yagi},
-      year={2025},
-      eprint={2512.00885},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.00885}, 
+  const bibtex = `@article{tateno2025handyvqa,
+  title={HanDyVQA: A Video QA Benchmark for Fine-Grained Hand-Object Interaction Dynamics},
+  author={Tateno, Masatoshi and Kato, Gido and Kataoka, Hirokatsu and Sato, Yoichi and Yagi, Takuma},
+  journal={arXiv preprint arXiv:2512.00885},
+  year={2025}
 }`;
 
   const handleCopy = () => {
